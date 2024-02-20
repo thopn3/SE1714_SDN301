@@ -1,0 +1,16 @@
+{
+  "name": "test-nodejs",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Thu nghiem moi truong lam viec NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "ThoPN",
+  "license": "ISC"
+}
