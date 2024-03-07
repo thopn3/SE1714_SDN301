@@ -1,0 +1,31 @@
+GET http://localhost:9999
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDk3ODQyNzksImV4cCI6MTcwOTc5NTA3OSwiYXVkIjoiNjVlOTM3NGMyMjJkMmU1NGIyMWI3NjY0IiwiaXNzIjoibG9jYWxob3N0Ojk5OTkifQ.9csissCjed99T4WZyAG96EN5YPMFvDCH4v00YCweZZQ
+
+###
+GET http://localhost:9999/abc-xyz
+
+###
+
+POST http://localhost:9999/auth/register
+Content-Type: application/json
+
+{
+    "email": "thopn3@fpt.edu.vn",
+    "password": "123"
+}
+
+###
+
+POST http://localhost:9999/auth/login
+Content-Type: application/json
+
+{
+    "email": "thopn3@fpt.edu.vn",
+    "password": "123"
+}
+
+###
+POST http://localhost:9999/auth/refresh-token
+
+###
+DELETE  http://localhost:9999/auth/logout
